@@ -12,7 +12,7 @@ spec:
         kind: HelmRepository
         name: linkerd-helm-repo
         namespace: kommander-flux
-      version: 30.2.4
+      version: 30.2.5
   dependsOn:
     - name: linkerd-viz
   interval: 15s

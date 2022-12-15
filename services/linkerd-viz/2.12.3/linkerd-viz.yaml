@@ -12,7 +12,7 @@ spec:
         kind: HelmRepository
         name: linkerd-helm-repo
         namespace: kommander-flux
-      version: 30.3.4
+      version: 30.3.5
   dependsOn:
     - name: linkerd-control-plane
   interval: 15s
